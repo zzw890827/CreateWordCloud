@@ -55,6 +55,7 @@ class WordCloudConfig(object):
 
         corpus = file.read()
         self.corpus = corpus
+        file.close()
 
     def open_picture(self):
         """打开背景图片"""
