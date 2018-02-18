@@ -153,7 +153,7 @@ def create_word_cloud(config):
 
 
 def main():
-    usage = 'usage: %prog [options] args corpus_path picture_path, font_path'
+    usage = 'usage: %prog [options] args corpus_path image_path, font_path'
     parser = OptionParser(usage=usage)
 
     parser.add_option('-t',
