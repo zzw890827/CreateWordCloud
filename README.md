@@ -20,3 +20,8 @@
 `pydoc create_word_cloud`
 4. 查看帮助信息：<br>
 `python create_word_cloud.py -h`
+
+## TODO
+*[] 提供语料库处理接口
+*[] 提供词云生成器控制接口
+*[] 添加网络爬虫功能和词频统计功能
